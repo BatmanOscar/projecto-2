@@ -1,0 +1,151 @@
+/* Estilos para el contenedor del logo y el menú */
+.navbar-brand-container {
+    background-color: #d5f6fa;
+    /* Morado */
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 0px #8dcfc4;
+    /* Sombra azul */
+    margin-right: 10px;
+    /* Margen para separar del resto del contenido */
+}
+
+/* Estilos para el logo */
+.navbar-brand img {
+    max-width: 100px;
+    /* Ajusta el tamaño del logo según tu diseño */
+}
+
+
+/* CSS personalizado para el menú */
+.navbar-nav .nav-link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        /* Cambia la tipografía */
+        font-size 23px;
+    /* Cambia el tamaño del texto */
+    /* Agrega otros estilos según necesites */
+}
+
+
+
+/* Estilos para el menú desplegable */
+.navbar-toggler {
+    border-color: #5e12a5;
+    /* Color del borde del botón */
+}
+
+.navbar-toggler-icon {
+    background-color: #000080;
+    /* Color del icono del botón */
+}
+
+/* Estilos para la barra de navegación */
+.navbar-nav {
+    padding-right: 20px;
+    /* Ajusta el espacio entre el logo y los elementos del menú */
+}
+
+/* Estilos para la página */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #e6e6fa;
+    /* Violeta */
+    color: #000080;
+    /* Azul */
+}
+
+/* Estilos para el área central con imagen */
+.central-section iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.image-section img {
+    width: 300px; /* Ajusta el tamaño de las imágenes */
+    height: 200px;
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+    margin-bottom: 20px;
+  }
+
+/* Estilos para las secciones inferiores */
+.lower-sections {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lower-sections h2 {
+    color: #8a2be2;
+    /* Violeta */
+}
+
+.lower-sections p {
+    color: #000080;
+    /* Azul */
+}
+
+/* Estilos para el footer */
+.footer {
+    padding: 100px;
+    background-color: #e6e6fa;
+    /* Violeta */
+    color: #000080;
+    /* Azul */
+}
+
+/* Estilos para el área de contactos */
+.contact-area {
+    float: right;
+    width: 30%;
+}
+
+.contact-area h3 {
+    color: #452664;
+    /* Violeta */
+}
+
+/* Estilos para el mapa */
+.map-area {
+    width: 60%;
+    /* Agrega aquí estilos para tu mapa si es necesario */
+}
+
+.footer .contact-info a {
+    color: white; /* Cambia el color de los íconos a blanco */
+    margin-right: 15px; /* Ajusta el espaciado entre los íconos si es necesario */
+    font-size: 28px; /* Tamaño de fuente de los íconos */
+  }
+
+/* Estilos para el footer */
+.footer {
+    padding: 20px;
+    background-color: #e6e6fa;
+    /* Violeta */
+    color: #000080;
+    /* Azul */
+    clear: both;
+    /* Para limpiar floats */
+    overflow: hidden;
+    /* Para contener elementos flotantes */
+}
+
+/* Estilos para el área de contactos */
+.contact-area {
+    float: right;
+    width: calc(40% - 20px);
+    /* El ancho es 40% menos el espacio de padding */
+    margin-bottom: 20px;
+    /* Agrega espacio al final del formulario */
+}
+
+.contact-area h3 {
+    color: #8a2be2;
+    /* Violeta */
+}
+
+/* Estilos para el formulario */
+#contactForm {
+    margin-bottom: 0;
+    /* Elimina el espacio inferior del formulario */
+}
